@@ -1,2 +1,3 @@
 # CS5720
-JSP projects
+Advanced Java undergrad projects - Spring 2012
+Professor J. Li
