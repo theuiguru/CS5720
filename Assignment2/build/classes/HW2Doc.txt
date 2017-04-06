@@ -1,0 +1,31 @@
+/**
+ * CS5720 Assignment 2
+ * Assignment2.java
+ * Purpose: Warehouse Distribution System
+ * 
+ * @author Chris Thomas
+ * 
+ * ASSIGNMENT 2 DOCUMENTATION
+ * 
+ * CLASSES:
+ * Assignment2.java
+ * Buffer.java
+ * Conveyer.java
+ * Driver.java
+ * Worker.java
+ * 
+ * Overall Description:
+ * The worker places the package with random items onto the conveyer (buffer).
+ * Then the driver picks up the items, delivers, and verifies the count given by the worker.
+ * The worker placing the item and the driver picking up the item. But 2 checks need to be in place.
+ * 1. You can't put more than 20 items on the Conveyer, so worker needs to check that before placing another item on the conveyer. If 20 items are on conveyer, then sleep for 10 seconds until the driver has time to take more items off.
+ * 2. Driver needs to verify that he delivers what he picks up. The total count for driver should equal total count by worker.
+ * 
+ * Buffer.java Class: Set and get the total packaged for the driver to send out to the customer.
+ * 
+ * Conveyer.java Class: To convey the packages of the customer items from worker to driver.
+ * 
+ * Driver.java Class: The driver picks up the items, delivers, and verifies the count given by the worker.
+ * 
+ * Worker.java Class: The worker places the package with customer's purchased items onto the conveyer.
+ */

@@ -1,0 +1,21 @@
+/**
+ * CS5720 Midterm Assignment
+ * Purpose: RSS News Feed Broadcasting System using CNN and Google News rss feed addresses
+ * 
+ * @author: Chris Thomas
+ * 
+ * DOCUMENTATION - OVERALL DESCRIPTION OF EACH CLASS
+ * 
+ * SERVER PACKAGE CLASSES:
+ * MidtermServer.java (Main program): The server is running at “localhost”, connecting to the RSS news feed items to send it
+ * 		           through the vendor, shared queue, and broadcaster, and finally broadcasting it out to the client.
+ * Buffer.java: Set and get the total packaged for the broadcaster to send out to the customer.
+ * NewsQueue.java: Two fetching data threads are working synchronously with the one that is taking data out from the queue. For 	 *		   simplicity, the queue can store only ONE news data item at any given time.
+ * Vendor.java: Two threads working on fetching RSS data and put data in a shared queue.
+ * Broadcaster.java: Another thread working on consuming the data from the queue to broadcast to clients one news item at a time.
+ * 
+ * CLIENT PACKAGE CLASSES:
+ * MidtermClient.java (Main program): Each client login to the server port (let’s say 5000) and register itself to accept the
+ * 				      broadcasting data from the server.
+ * 
+ */
