@@ -1,5 +1,3 @@
-# CS5720
+# Java
 
-Advanced Java undergrad projects - Spring 2012
-
-Professor J. Li
+Basic to Intermediate to Advanced Java learned.
